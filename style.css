@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(2, 45, 56);
+    
+}
+
+.title{
+    width:200px;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    font-size: 50px;
+    margin-top:150px;
+    box-sizing: border-box;
+    color:white;
+}
+
+.watch{
+    width:180px;
+    display:flex;
+    font-size: 50px;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    color:white;
+    margin-top:40px;
+}
+
+.numbers{
+    margin-right:8px;
+    box-sizing: border-box;
+}
+
+.controls{
+    width:350px;
+    margin:auto;
+    display:flex;
+    margin-top:40px;
+    box-sizing: border-box;
+}
+
+.buttons{
+    border:black solid 2px;
+    color:white;
+    width:150px;
+    background-color: rgb(252, 95, 56);
+    font-size: 30px;
+    padding:20px;
+    border-radius: 10px;
+    margin:10px;
+    box-sizing: border-box;
+}
