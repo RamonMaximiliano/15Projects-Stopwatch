@@ -1,62 +1,66 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(2, 45, 56);
-    
+
 }
 
-.title{
-    width:200px;
+.title {
+    width: 200px;
     text-align: center;
     align-items: center;
-    margin:auto;
+    margin: auto;
     font-size: 50px;
-    margin-top:150px;
+    margin-top: 150px;
     box-sizing: border-box;
-    color:white;
+    color: white;
 }
 
-.watch{
-    width:180px;
-    display:flex;
+.watch {
+    width: 180px;
+    display: flex;
     font-size: 50px;
-    margin:auto;
+    margin: auto;
     text-align: center;
     align-items: center;
     box-sizing: border-box;
-    color:white;
-    margin-top:40px;
+    color: white;
+    margin-top: 40px;
 }
 
-.numbers{
-    margin-right:8px;
+.numbers {
+    margin-right: 8px;
     box-sizing: border-box;
 }
 
-.controls{
-    width:350px;
-    margin:auto;
-    display:flex;
-    margin-top:40px;
+.controls {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
     box-sizing: border-box;
 }
 
-.buttons{
-    border:black solid 2px;
-    color:white;
-    width:150px;
+.buttons {
+    border: black solid 2px;
+    color: white;
+    width: 150px;
     background-color: rgb(250, 79, 36);
     font-size: 30px;
-    padding:20px;
+    padding: 20px;
     border-radius: 10px;
-    margin:10px;
+    margin: 10px;
     box-sizing: border-box;
 }
 
-.buttons:hover{
+.buttons:hover {
     background-color: rgb(253, 139, 110);
+}
+
+.buttonClicked {
+    background-color: rgb(231, 167, 151);
 }
